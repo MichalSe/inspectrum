@@ -1,4 +1,14 @@
 {% extends 'base.html' %}
+{% block content %}
+  <div class="title">Sign up</div>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Sign up</button>
+  </form>
+    <a href="/login">already registered? login here</a>
+{% endblock %}
+{% comment %}{% extends 'base.html' %}
 
 {% block content %}
   <h2>Sign up</h2>
@@ -18,18 +28,6 @@
     {% endfor %}
     <button type="submit">Sign up</button>
   </form>
-{% endblock %}
-{% comment %}
+{% endblock %}{% endcomment %}
 
-{% extends 'base.html' %}
-
-{% block content %}
-  <h2>Sign up</h2>
-  <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Sign up</button>
-  </form>
-{% endblock %}
-{% endcomment %}
 
