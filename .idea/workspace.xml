@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee796a2-d70a-46cf-b685-0130be07331f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings/prod.py" afterPath="$PROJECT_DIR$/settings/prod.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/inspectrum-server/settings/__init__.py" />
+      <change type="MOVED" beforePath="$USER_HOME$/python-getting-started/.idea/python-getting-started.iml" afterPath="$USER_HOME$/inspectrum-server/.idea/inspectrum-server.iml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/inspectrum-server/.idea/.name" afterPath="$USER_HOME$/inspectrum-server/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/inspectrum-server/settings/prod.py" afterPath="$USER_HOME$/inspectrum-server/settings/prod.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/inspectrum-server/.idea/workspace.xml" afterPath="$USER_HOME$/inspectrum-server/.idea/workspace.xml" />
     </list>
     <ignored path="python-getting-started.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +32,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gettingstarted/urls.py">
+        <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
@@ -42,7 +44,7 @@
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gettingstarted/views.py">
+        <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.677419">
               <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
@@ -54,7 +56,7 @@
         </entry>
       </file>
       <file leaf-file-name="inspectrum.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gettingstarted/templates/inspectrum.html">
+        <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/templates/inspectrum.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.0">
               <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
@@ -64,7 +66,7 @@
         </entry>
       </file>
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+        <entry file="file://$USER_HOME$/inspectrum-server/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
@@ -74,7 +76,7 @@
         </entry>
       </file>
       <file leaf-file-name="prod.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/prod.py">
+        <entry file="file://$USER_HOME$/inspectrum-server/settings/prod.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
@@ -84,7 +86,7 @@
         </entry>
       </file>
       <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+        <entry file="file://$USER_HOME$/inspectrum-server/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -94,17 +96,17 @@
         </entry>
       </file>
       <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gettingstarted/wsgi.py">
+        <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21582733">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.35971224">
+              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$USER_HOME$/inspectrum-server/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -114,7 +116,7 @@
         </entry>
       </file>
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gettingstarted/tests.py">
+        <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -134,35 +136,36 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/inspectrum-server" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gettingstarted/registration/login.html" />
-        <option value="$PROJECT_DIR$/gettingstarted/templates/registration/logout.html" />
-        <option value="$PROJECT_DIR$/gettingstarted/templates/inspectrum-guide.html" />
-        <option value="$PROJECT_DIR$/gettingstarted/wsgi.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/app/middleware.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/middleware.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/handlers.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/__init__.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/apps.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/models.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/static/__init__.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/static/css/registration" />
-        <option value="$PROJECT_DIR$/gettingstarted/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/gettingstarted/templates/signup.html" />
-        <option value="$PROJECT_DIR$/gettingstarted/templates/base.html" />
-        <option value="$PROJECT_DIR$/gettingstarted/templates/registration/login_success.html" />
-        <option value="$PROJECT_DIR$/gettingstarted/forms.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/views.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/urls.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/settings.py" />
-        <option value="$PROJECT_DIR$/gettingstarted/templates/inspectrum.html" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/gettingstarted/settings/prod.py" />
-        <option value="$PROJECT_DIR$/settings/prod.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/registration/login.html" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/templates/registration/logout.html" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/templates/inspectrum-guide.html" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/wsgi.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/app/middleware.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/middleware.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/handlers.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/__init__.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/apps.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/models.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/static/__init__.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/static/css/registration" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/templates/registration/login.html" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/templates/signup.html" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/templates/base.html" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/templates/registration/login_success.html" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/forms.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/views.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/urls.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/settings.py" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/templates/inspectrum.html" />
+        <option value="$USER_HOME$/python-getting-started/requirements.txt" />
+        <option value="$USER_HOME$/python-getting-started/gettingstarted/settings/prod.py" />
+        <option value="$USER_HOME$/python-getting-started/settings/prod.py" />
+        <option value="$USER_HOME$/inspectrum-server/gettingstarted/wsgi.py" />
       </list>
     </option>
   </component>
@@ -174,12 +177,12 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
-    <option name="y" value="23" />
+    <option name="x" value="155" />
+    <option name="y" value="60" />
     <option name="width" value="1244" />
     <option name="height" value="830" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -207,27 +210,21 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-getting-started" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-getting-started" />
+              <option name="myItemId" value="inspectrum-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-getting-started" />
+              <option name="myItemId" value="inspectrum-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-getting-started" />
+              <option name="myItemId" value="inspectrum-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-getting-started" />
+              <option name="myItemId" value="inspectrum-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -237,11 +234,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-getting-started" />
+              <option name="myItemId" value="inspectrum-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-getting-started" />
+              <option name="myItemId" value="inspectrum-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -257,20 +254,20 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/inspectrum" />
+    <property name="last_opened_file_path" value="$USER_HOME$/inspectrum-server" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/gettingstarted" />
-      <recent name="$PROJECT_DIR$/gettingstarted/static" />
-      <recent name="$PROJECT_DIR$/hello/templates" />
-      <recent name="$PROJECT_DIR$/gettingstarted/templates/registration" />
+      <recent name="$USER_HOME$/python-getting-started" />
+      <recent name="$USER_HOME$/python-getting-started/gettingstarted" />
+      <recent name="$USER_HOME$/python-getting-started/gettingstarted/static" />
+      <recent name="$USER_HOME$/python-getting-started/hello/templates" />
+      <recent name="$USER_HOME$/python-getting-started/gettingstarted/templates/registration" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.python-getting-started">
@@ -521,8 +518,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="23" width="1244" height="830" extended-state="0" />
-    <editor active="false" />
+    <frame x="155" y="60" width="1244" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -531,7 +528,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29950082" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29950082" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34013605" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -560,17 +557,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/gettingstarted/models.py</url>
+          <url>file://$USER_HOME$/inspectrum-server/gettingstarted/models.py</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/gettingstarted/views.py</url>
+          <url>file://$USER_HOME$/inspectrum-server/gettingstarted/views.py</url>
           <line>106</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/gettingstarted/views.py</url>
+          <url>file://$USER_HOME$/inspectrum-server/gettingstarted/views.py</url>
           <line>105</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
@@ -587,7 +584,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gettingstarted/__init__.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
@@ -595,7 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/apps.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
@@ -603,7 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/handlers.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -675,7 +672,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/middleware.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/middleware.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
@@ -787,7 +784,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/models.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
@@ -797,7 +794,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/static/__init__.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/static/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -805,7 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/staticfiles/css/registration">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/staticfiles/css/registration">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -813,7 +810,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/templates/base.html">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.1764708">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
@@ -829,7 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/templates/index.html">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -837,7 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/templates/registration/login_success.html">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/templates/registration/login_success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
@@ -861,7 +858,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/templates/signup.html">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
@@ -869,7 +866,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/templates/registration/login.html">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -904,7 +901,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/forms.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
@@ -924,7 +921,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/urls.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
@@ -934,7 +931,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/views.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.677419">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
@@ -944,7 +941,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$USER_HOME$/inspectrum-server/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -952,7 +949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/templates/inspectrum.html">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/templates/inspectrum.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
@@ -960,7 +957,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$USER_HOME$/inspectrum-server/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -968,7 +965,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$USER_HOME$/inspectrum-server/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
@@ -976,15 +973,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/prod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/settings.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78417265">
           <caret line="158" column="27" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="27" />
@@ -994,7 +983,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/tests.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1002,10 +991,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/wsgi.py">
+    <entry file="file://$USER_HOME$/inspectrum-server/settings/prod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21582733">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35971224">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
           <folding />
         </state>
       </provider>
