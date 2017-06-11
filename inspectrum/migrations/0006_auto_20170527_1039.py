@@ -8,7 +8,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('gettingstarted', '0005_states_css_code'),
+        ('inspectrum', '0005_states_css_code'),
     ]
 
     operations = [

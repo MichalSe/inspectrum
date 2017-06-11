@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('gettingstarted', '0006_auto_20170527_1039'),
+        ('inspectrum', '0006_auto_20170527_1039'),
     ]
 
     operations = [

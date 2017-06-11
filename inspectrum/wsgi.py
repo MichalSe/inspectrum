@@ -12,7 +12,7 @@ import os, sys
 # add the hellodjango project path into the sys.path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gettingstarted.config.prod")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "inspectrum.config.prod")
 
 from django.core.wsgi import get_wsgi_application
 from whitenoise.django import DjangoWhiteNoise

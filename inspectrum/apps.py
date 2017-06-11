@@ -2,7 +2,7 @@ from django.apps import AppConfig
 
 
 class MyAppConfig(AppConfig):
-    name = 'gettingstarted'
+    name = 'inspectrum'
 
     def ready(self):
         # Makes sure all signal handlers are connected

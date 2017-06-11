@@ -1,11 +1,11 @@
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
-from gettingstarted.forms import SignUpForm, LoginForm
+from inspectrum.forms import SignUpForm, LoginForm
 from datetime import datetime, timedelta
 from django.http import JsonResponse, HttpResponseRedirect, HttpResponse, QueryDict
 from django.views import View
-from gettingstarted.models import *
+from inspectrum.models import *
 import json
 import pytz
 

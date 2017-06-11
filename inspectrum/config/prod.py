@@ -1,4 +1,4 @@
-from gettingstarted.settings import *
+from inspectrum.settings import *
 
 DEBUG = False
 

@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'gettingstarted',
+    'inspectrum',
     'corsheaders',
 ]
 
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'gettingstarted.middleware.UserCookieMiddleware', #should it be last?
+    'inspectrum.middleware.UserCookieMiddleware', #should it be last?
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
@@ -59,7 +59,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 # )
 
 
-ROOT_URLCONF = 'gettingstarted.urls'
+ROOT_URLCONF = 'inspectrum.urls'
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'gettingstarted.wsgi.application'
+WSGI_APPLICATION = 'inspectrum.wsgi.application'
 
 
 # Database
