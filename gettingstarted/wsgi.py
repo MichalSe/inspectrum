@@ -10,13 +10,7 @@ https://docs.djangoproject.com/en/1.6/howto/deployment/wsgi/
 import os, sys
 
 # add the hellodjango project path into the sys.path
-sys.path.append('/Users/michalsela/inspectrum-server')
-
-# add the virtualenv site-packages path to the sys.path
-sys.path.append('Users/michalsela/inspectrum-server/venv/lib/python3.6/site-packages')
-#sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
-#sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../")))
-
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "inspectrum-server.settings.prod")
 
