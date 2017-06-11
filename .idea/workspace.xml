@@ -74,11 +74,9 @@
       <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2746479">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="e#230#239#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.19014084">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1001,11 +999,9 @@
     </entry>
     <entry file="file://$USER_HOME$/inspectrum-server/gettingstarted/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2746479">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#230#239#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.19014084">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
