@@ -10,9 +10,9 @@ https://docs.djangoproject.com/en/1.6/howto/deployment/wsgi/
 import os, sys
 
 # add the hellodjango project path into the sys.path
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+#sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "inspectrum-server.settings.prod")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "inspectrum_server.settings.prod")
 
 from django.core.wsgi import get_wsgi_application
 from whitenoise.django import DjangoWhiteNoise

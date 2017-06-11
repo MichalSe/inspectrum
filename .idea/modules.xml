@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/inspectrum-server/.idea/inspectrum-server.iml" filepath="$USER_HOME$/inspectrum-server/.idea/inspectrum-server.iml" />
+      <module fileurl="file://$USER_HOME$/inspectrum_server/.idea/inspectrum_server.iml" filepath="$USER_HOME$/inspectrum_server/.idea/inspectrum_server.iml" />
     </modules>
   </component>
 </project>
