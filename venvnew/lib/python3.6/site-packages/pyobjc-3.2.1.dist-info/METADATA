@@ -1,0 +1,106 @@
+Metadata-Version: 2.0
+Name: pyobjc
+Version: 3.2.1
+Summary: Python<->ObjC Interoperability Module
+Home-page: http://pyobjc.sourceforge.net/
+Author: Ronald Oussoren
+Author-email: pyobjc-dev@lists.sourceforge.net
+License: MIT License
+Keywords: Objective-C,bridge,Cocoa
+Platform: MacOS X
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X :: Cocoa
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Objective C
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Dist: pyobjc-core (==3.2.1)
+Requires-Dist: pyobjc-framework-AVFoundation (==3.2.1)
+Requires-Dist: pyobjc-framework-AVKit (==3.2.1)
+Requires-Dist: pyobjc-framework-Accounts (==3.2.1)
+Requires-Dist: pyobjc-framework-AddressBook (==3.2.1)
+Requires-Dist: pyobjc-framework-AppleScriptKit (==3.2.1)
+Requires-Dist: pyobjc-framework-AppleScriptObjC (==3.2.1)
+Requires-Dist: pyobjc-framework-ApplicationServices (==3.2.1)
+Requires-Dist: pyobjc-framework-Automator (==3.2.1)
+Requires-Dist: pyobjc-framework-CFNetwork (==3.2.1)
+Requires-Dist: pyobjc-framework-CalendarStore (==3.2.1)
+Requires-Dist: pyobjc-framework-CloudKit (==3.2.1)
+Requires-Dist: pyobjc-framework-Cocoa (==3.2.1)
+Requires-Dist: pyobjc-framework-Collaboration (==3.2.1)
+Requires-Dist: pyobjc-framework-Contacts (==3.2.1)
+Requires-Dist: pyobjc-framework-ContactsUI (==3.2.1)
+Requires-Dist: pyobjc-framework-CoreBluetooth (==3.2.1)
+Requires-Dist: pyobjc-framework-CoreData (==3.2.1)
+Requires-Dist: pyobjc-framework-CoreLocation (==3.2.1)
+Requires-Dist: pyobjc-framework-CoreText (==3.2.1)
+Requires-Dist: pyobjc-framework-CoreWLAN (==3.2.1)
+Requires-Dist: pyobjc-framework-CryptoTokenKit (==3.2.1)
+Requires-Dist: pyobjc-framework-DictionaryServices (==3.2.1)
+Requires-Dist: pyobjc-framework-DiskArbitration (==3.2.1)
+Requires-Dist: pyobjc-framework-EventKit (==3.2.1)
+Requires-Dist: pyobjc-framework-ExceptionHandling (==3.2.1)
+Requires-Dist: pyobjc-framework-FSEvents (==3.2.1)
+Requires-Dist: pyobjc-framework-FinderSync (==3.2.1)
+Requires-Dist: pyobjc-framework-GameCenter (==3.2.1)
+Requires-Dist: pyobjc-framework-GameController (==3.2.1)
+Requires-Dist: pyobjc-framework-IMServicePlugIn (==3.2.1)
+Requires-Dist: pyobjc-framework-IOSurface (==3.2.1)
+Requires-Dist: pyobjc-framework-ImageCaptureCore (==3.2.1)
+Requires-Dist: pyobjc-framework-InputMethodKit (==3.2.1)
+Requires-Dist: pyobjc-framework-InstallerPlugins (==3.2.1)
+Requires-Dist: pyobjc-framework-InstantMessage (==3.2.1)
+Requires-Dist: pyobjc-framework-Intents (==3.2.1)
+Requires-Dist: pyobjc-framework-LatentSemanticMapping (==3.2.1)
+Requires-Dist: pyobjc-framework-LaunchServices (==3.2.1)
+Requires-Dist: pyobjc-framework-LocalAuthentication (==3.2.1)
+Requires-Dist: pyobjc-framework-MapKit (==3.2.1)
+Requires-Dist: pyobjc-framework-MediaAccessibility (==3.2.1)
+Requires-Dist: pyobjc-framework-MediaLibrary (==3.2.1)
+Requires-Dist: pyobjc-framework-MediaPlayer (==3.2.1)
+Requires-Dist: pyobjc-framework-ModelIO (==3.2.1)
+Requires-Dist: pyobjc-framework-MultipeerConnectivity (==3.2.1)
+Requires-Dist: pyobjc-framework-NetFS (==3.2.1)
+Requires-Dist: pyobjc-framework-NetworkExtension (==3.2.1)
+Requires-Dist: pyobjc-framework-NotificationCenter (==3.2.1)
+Requires-Dist: pyobjc-framework-OpenDirectory (==3.2.1)
+Requires-Dist: pyobjc-framework-Photos (==3.2.1)
+Requires-Dist: pyobjc-framework-PhotosUI (==3.2.1)
+Requires-Dist: pyobjc-framework-PreferencePanes (==3.2.1)
+Requires-Dist: pyobjc-framework-PubSub (==3.2.1)
+Requires-Dist: pyobjc-framework-QTKit (==3.2.1)
+Requires-Dist: pyobjc-framework-Quartz (==3.2.1)
+Requires-Dist: pyobjc-framework-SafariServices (==3.2.1)
+Requires-Dist: pyobjc-framework-SceneKit (==3.2.1)
+Requires-Dist: pyobjc-framework-ScreenSaver (==3.2.1)
+Requires-Dist: pyobjc-framework-ScriptingBridge (==3.2.1)
+Requires-Dist: pyobjc-framework-SearchKit (==3.2.1)
+Requires-Dist: pyobjc-framework-ServiceManagement (==3.2.1)
+Requires-Dist: pyobjc-framework-Social (==3.2.1)
+Requires-Dist: pyobjc-framework-SpriteKit (==3.2.1)
+Requires-Dist: pyobjc-framework-StoreKit (==3.2.1)
+Requires-Dist: pyobjc-framework-SyncServices (==3.2.1)
+Requires-Dist: pyobjc-framework-SystemConfiguration (==3.2.1)
+Requires-Dist: pyobjc-framework-WebKit (==3.2.1)
+
+
+PyObjC is a bridge between Python and Objective-C.  It allows full
+featured Cocoa applications to be written in pure Python.  It is also
+easy to use other frameworks containing Objective-C class libraries
+from Python and to mix in Objective-C, C and C++ source.
+
+This package is a pseudo-package that will install all pyobjc related
+packages (that is, pyobjc-core as well as wrapppers for frameworks on
+OSX)
+
+
