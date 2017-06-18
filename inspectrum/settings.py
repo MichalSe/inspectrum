@@ -47,6 +47,8 @@ CORS_ORIGIN_ALLOW_ALL = True
 # )
 
 
+CSRF_TRUSTED_ORIGINS = ['chrome-extension://omjeafamcinppohnjbghgfmhnlmiiejd' ]
+
 ROOT_URLCONF = 'inspectrum.urls'
 
 TEMPLATES = [

@@ -1451,6 +1451,8 @@
       <exported-key name="django_admin_log_user_id_c564eba6_fk_auth_user_id" table="django_admin_log" schema="public" catalog="inspectrum" columns="user_id"/>
       <exported-key name="gettingstarted_states_owner_id_4381cff2_fk_auth_user_id" table="gettingstarted_states" schema="public" catalog="inspectrum" columns="owner_id"/>
       <exported-key name="gettingstarted_state_user_id_eecc2ffa_fk_auth_user" table="gettingstarted_states_followers" schema="public" catalog="inspectrum" columns="user_id"/>
+      <exported-key name="inspectrum_states_owner_id_415d8b53_fk_auth_user_id" table="inspectrum_states" schema="public" catalog="inspectrum" columns="owner_id"/>
+      <exported-key name="inspectrum_states_followers_user_id_fdd29cbd_fk_auth_user_id" table="inspectrum_states_followers" schema="public" catalog="inspectrum" columns="user_id"/>
       <index name="auth_user_username_key" unique="true" columns="username"/>
       <index name="auth_user_username_6821ab7c_like" unique="false" columns="username"/>
     </table>
@@ -1547,6 +1549,32 @@
     </table>
     <table name="gettingstarted_states_followers_id_seq" schema="public" catalog="inspectrum" type="SEQUENCE"/>
     <table name="gettingstarted_states_id_seq" schema="public" catalog="inspectrum" type="SEQUENCE"/>
+    <table name="inspectrum_states" schema="public" catalog="inspectrum" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnaW5zcGVjdHJ1bV9zdGF0ZXNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
+      <column name="date_created" sqlType="timestamptz" precision="35" scale="6" nullable="false" jdbcType="93"/>
+      <column name="name" sqlType="varchar" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="url" sqlType="varchar" precision="500" scale="0" nullable="false" jdbcType="12"/>
+      <column name="owner_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="css_code" sqlType="text" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="inspectrum_states_pkey" columns="id"/>
+      <foreign-key name="inspectrum_states_owner_id_415d8b53_fk_auth_user_id" columns="owner_id" ref-table="auth_user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <exported-key name="inspectrum_states_fo_states_id_19038cbf_fk_inspectru" table="inspectrum_states_followers" schema="public" catalog="inspectrum" columns="states_id"/>
+      <index name="inspectrum_states_url_owner_id_name_44198768_uniq" unique="true" columns="url,owner_id,name"/>
+      <index name="inspectrum_states_owner_id_415d8b53" unique="false" columns="owner_id"/>
+    </table>
+    <table name="inspectrum_states_followers" schema="public" catalog="inspectrum" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnaW5zcGVjdHJ1bV9zdGF0ZXNfZm9sbG93ZXJzX2lkX3NlcSc6OnJlZ2NsYXNzKQ==" autoIncrement="true"/>
+      <column name="states_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="inspectrum_states_followers_pkey" columns="id"/>
+      <foreign-key name="inspectrum_states_followers_user_id_fdd29cbd_fk_auth_user_id" columns="user_id" ref-table="auth_user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="inspectrum_states_fo_states_id_19038cbf_fk_inspectru" columns="states_id" ref-table="inspectrum_states" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="inspectrum_states_followers_states_id_user_id_0f7ef1e9_uniq" unique="true" columns="states_id,user_id"/>
+      <index name="inspectrum_states_followers_states_id_19038cbf" unique="false" columns="states_id"/>
+      <index name="inspectrum_states_followers_user_id_fdd29cbd" unique="false" columns="user_id"/>
+    </table>
+    <table name="inspectrum_states_followers_id_seq" schema="public" catalog="inspectrum" type="SEQUENCE"/>
+    <table name="inspectrum_states_id_seq" schema="public" catalog="inspectrum" type="SEQUENCE"/>
     <procedure name="RI_FKey_cascade_del" schema="pg_catalog" catalog="inspectrum" type="2" remarks="cmVmZXJlbnRpYWwgaW50ZWdyaXR5IE9OIERFTEVURSBDQVNDQURF">
       <prototype>
         <parameter name="returnValue" sqlType="trigger" precision="0" scale="0" nullable="true" jdbcType="1111" type="5" index="0"/>
