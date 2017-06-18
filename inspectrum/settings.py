@@ -47,7 +47,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 # )
 
 
-CSRF_TRUSTED_ORIGINS = ['.stackoverflow.com']
+#CSRF_TRUSTED_ORIGINS = ['.stackoverflow.com']
 
 ROOT_URLCONF = 'inspectrum.urls'
 
