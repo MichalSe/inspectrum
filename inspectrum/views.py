@@ -1,6 +1,7 @@
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
+from django.views.decorators.csrf import csrf_exempt
 from inspectrum.forms import SignUpForm, LoginForm
 from datetime import datetime, timedelta
 from django.http import JsonResponse, HttpResponseRedirect, HttpResponse, QueryDict
@@ -38,7 +39,7 @@ def verified(request):
     else:
         return JsonResponse({"verified": False})
 
-
+@csrf_exempt
 class StatesPerUserView(View):
     # returns a query set of all states belonging to a user
     def get(self, request, url):
