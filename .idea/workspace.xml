@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e85ff3-df0e-476c-84a5-bbc6d7676f56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inspectrum/models.py" afterPath="$PROJECT_DIR$/inspectrum/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="inspectrumserverside.iws" />
@@ -587,7 +586,13 @@
       <option name="project" value="LOCAL" />
       <updated>1497858783149</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="working on csrf">
+      <created>1497859977395</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1497859977395</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
