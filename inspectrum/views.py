@@ -39,7 +39,8 @@ def verified(request):
     else:
         return JsonResponse({"verified": False})
 
-@csrf_exempt
+
+
 class StatesPerUserView(View):
     # returns a query set of all states belonging to a user
     def get(self, request, url):
@@ -58,7 +59,7 @@ class StatesPerUserView(View):
         except Exception as e:
                 print("%s (%s)" % (e.message, type(e)))
                 return HttpResponse(status=400)
-
+    @csrf_exempt
     def post(self, request, url):
             try:
                 body_unicode = request.body.decode('utf-8')
