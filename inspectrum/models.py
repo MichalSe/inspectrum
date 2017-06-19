@@ -21,7 +21,7 @@ class States(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE)  # many to one, add func - change user if user deleted
     date_created = models.DateTimeField('date created', auto_now_add=True)
     name = models.CharField(max_length=100)
-    css_code = models.TextField(default=None)
+    css_code = models.TextField(default="")
     url = models.CharField(max_length=500)
     followers = models.ManyToManyField(User, related_name='followers_created')
 
