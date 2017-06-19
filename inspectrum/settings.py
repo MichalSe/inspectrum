@@ -42,11 +42,12 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
-# CORS_ORIGIN_WHITELIST = (
-#     'somesiteaccessuserdata.allowed.com',
-# )
+CORS_ORIGIN_WHITELIST = (
+    'chrome-extension://omjeafamcinppohnjbghgfmhnlmiiejd',
+)
 
-
+CORS_REPLACE_HTTPS_REFERER = True
+CORS_ALLOW_CREDENTIALS = True
 CSRF_TRUSTED_ORIGINS = ['chrome-extension://omjeafamcinppohnjbghgfmhnlmiiejd']
 #CSRF_TRUSTED_ORIGINS = ['inspectrum.com']
 

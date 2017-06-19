@@ -68,8 +68,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inspectrum/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63893247" vertical-offset="328" max-vertical-offset="2220">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35635793" vertical-offset="508" max-vertical-offset="2235">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -546,7 +546,13 @@
       <option name="project" value="LOCAL" />
       <updated>1497858226007</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="working on csrf">
+      <created>1497858470292</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497858470292</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -807,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inspectrum/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63893247" vertical-offset="328" max-vertical-offset="2220">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.35635793" vertical-offset="508" max-vertical-offset="2235">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
