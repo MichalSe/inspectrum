@@ -1,18 +1,35 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
-    <style>
+<style>
     h4, p, a{
         margin-left: 20px;
     }
     p {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
-
+    .logo {
+        height: 21px;
+        width: 171px;
+        color: #2470DE;
+        font-family: "Dosis";
+        font-size: 48px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+img {
+    height: 300px;
+    margin-left: 20px;
+}
 </style>
- <div class="title">Inspectrum</div>
+<div class="logo">Inspectrum</div>
 
-<h4> Great you're logged in !! </h4>
-<p>You can download the extension from Chrome Web Store:</p>
-<a href="link for chrome store">link goes here</a>
+<h4>Thanks for joining us !</h4>
+<p>Inspectrum lets you record and save css changes you're editing in devtools, and next time you turn it on you can just keep going where you left off</p>
+<img src="{% static "images/inspectrum2.png" %}">
+<img src="{% static "images/inspectrum4.png" %}">
+
+<p>You can also view the changes you made and copy them to your source code, or send them to your fellow coders and designers:</p>
+<img src="{% static "images/inspectrum5.png" %}">
+
 {% endblock %}

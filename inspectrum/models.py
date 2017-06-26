@@ -1,7 +1,5 @@
 from django.db import models
 from django.contrib.auth.models import User
-from django.db.models.signals import post_save
-from django.dispatch import receiver
 
 
 # class Profile(models.Model):
@@ -15,7 +13,6 @@ from django.dispatch import receiver
 #         Profile.objects.create(user=instance)
 #     instance.profile.save()
 
-
 # Create your models here.
 class States(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE)  # many to one, add func - change user if user deleted
@@ -27,4 +24,3 @@ class States(models.Model):
 
     class Meta:
         unique_together = ('url', 'owner', 'name')
-
