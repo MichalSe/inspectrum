@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'inspectrum',
         'USER': 'inspectrumadmin',
-        'PASSWORD': 'isnpectrumrules',
+        'PASSWORD': 'inspectrumrules',
         'HOST': '',
         'PORT': '',
     }

@@ -102,9 +102,10 @@ def signup(request):
             user = form.save()
             user.refresh_from_db()  # load the profile instance created by the signal
             # user.profile.team_id = form.cleaned_data.get('team_id')
+            user.username = user.email
             user.save()
             raw_password = form.cleaned_data.get('password1')
-            user = authenticate(username=user.username, password=raw_password)
+            user = authenticate(email=user.email, password=raw_password)
             login(request, user)
             return redirect('inspectrum')
     else:

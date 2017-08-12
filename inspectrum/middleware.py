@@ -18,10 +18,5 @@ class UserCookieMiddleware(object):
 
         # Code to be executed for each request/response after
         # the view is called.
-         #if user and no cookie, set cookie
-        if request.user.is_authenticated() and not request.COOKIES.get('user'):
-            response.set_cookie("user", 'Hello Cookie')
-        elif not request.user.is_authenticated() and request.COOKIES.get('user'):
-            #else if if no user and cookie remove user cookie, logout
-            response.delete_cookie("user")
+
         return response

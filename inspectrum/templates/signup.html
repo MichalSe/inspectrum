@@ -1,5 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
+    <style>
+    ul {
+        padding-left: 0;
+    }
+    </style>
   <div class="title">Sign up</div>
   <form method="post">
     {% csrf_token %}

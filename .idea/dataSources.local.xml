@@ -3,7 +3,7 @@
   <component name="dataSourceStorageLocal">
     <data-source name="Django default" uuid="2041d53b-6683-4af0-aeed-febdcd0ddcdd">
       <user-name>inspectrumadmin</user-name>
-      <user-password>dfc3dfd9dfc4dfdadfcfdfc9dfdedfd8dfdfdfc7dfd8dfdfdfc6dfcfdfd9</user-password>
+      <user-password>dfc3dfc4dfd9dfdadfcfdfc9dfdedfd8dfdfdfc7dfd8dfdfdfc6dfcfdfd9</user-password>
       <schema-pattern>inspectrum.pg_catalog inspectrum.public</schema-pattern>
       <default-schemas>inspectrum.pg_catalog inspectrum.public</default-schemas>
     </data-source>

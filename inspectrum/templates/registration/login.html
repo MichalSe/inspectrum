@@ -5,8 +5,15 @@
 {% block content %}
   <div class="title">Login</div>
   <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
+  {% csrf_token %}
+   <div class="form-inputGroup">
+        <label class="form-label" for="id_username">Email:</label>
+        <input id="id_username" name="username" type="text" class="form-input">
+    </div>
+    <div class="form-inputGroup">
+        <label class="form-label" for="id_password">Password:</label>
+        <input id="id_password" name="password" type="password" class="form-input">
+    </div>
     <button type="submit">Login</button>
   </form>
      <a href="/signup">not registered yet? sign up here</a>
