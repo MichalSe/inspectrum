@@ -40,7 +40,6 @@ def verified(request):
         return JsonResponse({"verified": False})
 
 
-
 class StatesPerUserView(View):
     # returns a query set of all states belonging to a user
     def get(self, request, url):
